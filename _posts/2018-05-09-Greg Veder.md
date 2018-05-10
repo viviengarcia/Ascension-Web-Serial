@@ -1,0 +1,39 @@
+---
+title: Greg Veder
+category: characters
+layout: chapter
+---
+
+
+### Pouvoirs et caractéristiques
+
+Greg Veder, alias Decay, est un puissant Trump/Master, hôte du Shard Administrator dont la configuration s'exprime de façon complexe.  
+
+L'aspect le plus visible est le Trump. Il passe d'un ensemble de pouvoirs à l'autre de façon visible par un double effet sonore et lumineux. Son physique et sa personnalité changent entre chaque set. Main Character est un héros classique d'animation japonaise, fougueux et physique, quand à Mastermind, c'est un génie du mal de comics américains, secret et calculateur. Ses deux personnalités se partagent certaines caractéristiques persistantes, tandis que d'autres sont exclusives à un personnage.  
+
+L'intensité de ses pouvoirs et caractéristiques peut varier en fonction de sa situation, plus ou moins proche de son Basculement, ainsi que de la présence de mamifères dans un rayon de 11 mètres autour de lui. En effet il peut infliger des malus physiques, mentaux et relatifs aux pouvoirs de chaque (para)humain qu'il peut voir directement dans un rayon de 11 mètres autour de lui, améliorant ses propres caractéristiques et pouvoirs en retour.
+
+Chaque victime sera moins efficace, se sentira démotivée et, si elle a des pouvoirs, ne pourra plus les utiliser complètement. Les bonus qu'il récupère augmente à chaque victime, avec une progression logarithmique. Les humains et mamifères lui permettent d'améliorer ses capacités physiques et mentales. Quand aux parahumains, ils lui permettent en plus d'améliorer l'utilisation de ses propres pouvoirs. Il ne copie pas ni ne vole les pouvoirs. Une fois qu'il verrouille une victime, elle ne peut annuler l'effet qu'en s'échappant de sa zone d'influence ou en l'incapacitant (perte de connaissance ou mort).
+
+En s'harmonisant avec son Shard, Greg va pouvoir redistribuer ses bonus non-seulement à lui-même mais aussi à ses alliés. Il bénéficieront de bonus moins importants mais bienvenus malgré tout.
+
+Concrètement, il benéficie en permanence d'un ensemble de caractéristiques améliorées par rapport à un humain normal, mais il peut aussi améliorer ses équipiers. Chaque cas est unique mais dans l'ensemble un équipier verra ses performances progresser d'environ 20% suplémentaires (capacités physiques et/ou pouvoirs). Motivation et perceptivité boostées et conscience améliorée de ce qui se passe dans la zone, comme si chaque allié présent dans la zone envoyait aux autres une partie de ses perceptions. Il aura aussi tendance à moins sentir la fatigue et sera moins prudent. Un ennemi aura l'effet inverse : pouvoirs plus faibles ou plus difficiles d'utilisation, capacités physiques amoindries, motivation et perceptivité affaiblies, sensation de fatigue et de découragement. De plus, il peut récuperer une partie des capacités de ses victimes pour lui ou les alliés présents dans sa zone d'influence, afin d'augmenter les améliorations appliquées par ses Bonus, ce qui en fait un allié de choix. Il peut pousser les bonus jusqu'à 50% pour ses alliés et sans limite pour lui-même, mais il reste limité par la taille de sa zone d'influence et le nombre d'ennemis qu'elle peut contenir. 
+
+De plus, chaque malus dans sa zone augmente sa résistance quel que soit son personnage afin de prévenir les tentatives d'élimination.
+
+### Chiffres
+
+#### Sans victime de malus :
+
+1. Bonus "Main Character" : Trump 5, Master 2, Brute 2, Mover 1, Changer 0, Thinker 1. Endurance, réflexes, rapidité, agilité, résilience, charisme au top des capacités humaines. Force : 200kg. Le corps devient plus résistant et peut encaisser un coup de couteau normal et des coups de batte de base-ball mais pas un tir d'arme à feu. Très bonne appréciation de son environnement. Caractère extraverti, courageux, assuré, naïf, entier. Physique de sportif de haut niveau sans être déformé, ses caractéristiques physiques ne sont pas vraiment dépendantes de son corps. Bon tacticien. Faiblesse : parle trop, naïf, imprudent. Un combattant/animateur, bien équilibré et efficace.
+2. Bonus "Mastermind" : Trump 5, Master 3, Brute 1, Stranger 1, Changer 0, Thinker 3. Intelligence, instinct, contrôle de soi, manipulation au top des capacités humaines. Force 75kg. Réflexes et agilité au-dessus de la moyenne. Endurance normale, dépendant de son corps. Caractère introverti, discret, réfléchi, calculateur. Charismatique si nécessaire. Très bon stratège. Faiblesse : trop prudent et perfectionniste. Le set qu'il utilise dans son identité civile, un planificateur discret et compétent.
+
+#### Avec victime de malus :
+
+1. Bonus "Main Character" : Trump 5, Master 2, Brute 4+, Mover 3+, Changer 0, Thinker 1
+2. Bonus "Mastermind" : Trump 5, Master 3, Brute 2+, Mover 1+, Stranger 2+, Changer 0, Thinker 4+
+
+Chaque victime supplémentaire augmente la force, la résistance aux agressions physiques, l'endurance, la vitesse, l'agilité, les réflexes et la coordination du Main Character. Moins orienté combat, les victimes supplémentaires du Mastermind augmentent les capacités d'analyse et de discretion, aainsi que la résistance aux agressions et l'esquive.
+Dans les deux cas, l'augmentation est logarithmique mais n'a techniquement pas de limite.
+
+Sa conscience instinctive de son environnement lui permettent d'esquiver de nombreuses attaques, de proposer des réponses tactiques adaptées et le rendent difficile à combattre ou anticiper. Il passe d'un état à l'autre en émettant brievement un flash de lumière colorée (variable) ainsi qu'un bruit allant du "crack" au "pop". Ces phénomènes ne sont pas incapacitants, mais leur présence est une faiblesse car elle signale la présence de Switch et son changement de set aux personnes averties.

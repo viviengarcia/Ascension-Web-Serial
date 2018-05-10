@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		{% if page.url == "/" %}
+			Accueil
+		{% else %}
+			{{ page.title }}
+		{% endif %}
+		 | Ascension - Une Fan Fiction Sérialisée inspirée par Worm
+	</title>
+	<link href="{{ baseurl }}/assets/Web Serial.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<div class="flex-container">
+			<div class="logo"><a href="/">{{ site:title }}</a></div>
+			<menu>
+				<li>
+				{% if site.posts.size > 0 %}
+					{% for post in site.posts %}
+						{% if post.category == "chapitres" or post.category == "interludes" %}
+							<a class="post-link" href="{{ post.url | relative_url }}">
+								Dernier Chapitre : {{ post.title | escape }}
+							</a>
+							{% break %}
+						{% endif %}
+					{% endfor %}
+				{% endif %}
+				</li>
+				<li>
+					<a href="/sommaire/">Chapitres</a>
+				</li>
+				<li class="menu-dropdown-button">
+					<button>Annexe </button>
+					<ul class="menu-dropdown-list ">
+						<li><a href="/plot/">Intrigue</a></li>
+						<li><a href="/divergences/">Divergences</a></li>
+						<li><a href="/characters/">Personnages</a></li>
+					</ul>
+				</li>
+			</menu>
+
+			{% if page.layout == 'chapter' %}
+			<div class="alt-nav">
+
+				{% if page.previous.url %}
+				<a class="previous" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+				{% else %}
+				<span class="previous">Vous êtes au début.</span>
+				{% endif %}
+
+				{% if post.url == /chapitres/* %}
+				<p class="word-count">Longueur : {{ page.content | number_of_words }} mots.</p>
+				{% endif %}
+
+				{% if page.next.url %}
+				<a class="" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+				{% else %}
+				<span class="next">Vous êtes à la fin.</span>
+				{% endif %}
+
+			</div>
+			{% endif %}
+
+		</div>
+		<div class="floating-list menu-dropdown-button">
+			<button>Chapitres </button>
+			{% if site.posts.size > 0 %}
+			<ul class="">
+				{% for post in site.posts  reversed %}
+					{% if post.category == "chapitres" or  post.category == "interludes" %}
+					<li>
+						<a class="post-link" href="{{ post.url | relative_url }}">
+							{{ post.title | escape }}
+						</a>
+					</li>
+					{% endif %}
+				{% endfor %}
+			</ul>
+			{% endif %}
+		</div>
+	</header>

@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% assign sortedPosts = site.posts | sort: 'date' | reverse %}
+
+{% for post in sortedPosts %}
+	{% if post.category == "chapitres" or post.category == "interludes" %}
+	<h1>{{ post.title }}</h1>
+	<hr>
+	{{ post.content }}
+	{% break %}
+	{% endif %}
+
+{% endfor %}
