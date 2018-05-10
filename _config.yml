@@ -14,26 +14,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Ascension
-email: your-email@example.com
+email: ascension-web-serial.10.s3rl@recursor.net
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: ""
+github_username:  ""
 
 # Build settings
 markdown: kramdown
-theme: minima
+# theme: ""
 plugins:
   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
+exclude:
+    - Ascension.sublime-project
+    - Ascension.sublime-workspace
 #   - Gemfile
 #   - Gemfile.lock
 #   - node_modules
@@ -43,6 +45,6 @@ plugins:
 #   - vendor/ruby/
 
 
-destination: _out
+destination: docs
 keep_files: [assets/Web Serial.css, assets/Web Serial.css.map, assets/menu-top.png]
 permalink: /:categories/:title/
