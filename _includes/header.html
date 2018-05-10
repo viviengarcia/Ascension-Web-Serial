@@ -14,13 +14,13 @@
 <body>
 	<header>
 		<div class="flex-container">
-			<div class="logo"><a href="/">{{ site:title }}</a></div>
+			<div class="logo"><a href="{{ site.url }}">{{ site:title }}</a></div>
 			<menu>
 				<li>
 				{% if site.posts.size > 0 %}
 					{% for post in site.posts %}
 						{% if post.category == "chapitres" or post.category == "interludes" %}
-							<a class="post-link" href="{{ post.url | relative_url }}">
+							<a class="post-link" href="{{ site.url }}/{{ post.url | relative_url }}">
 								Dernier Chapitre : {{ post.title | escape }}
 							</a>
 							{% break %}
@@ -29,14 +29,14 @@
 				{% endif %}
 				</li>
 				<li>
-					<a href="/sommaire/">Chapitres</a>
+					<a href="{{ site.url }}/sommaire/">Chapitres</a>
 				</li>
 				<li class="menu-dropdown-button">
 					<button>Annexe </button>
 					<ul class="menu-dropdown-list ">
-						<li><a href="/plot/">Intrigue</a></li>
-						<li><a href="/divergences/">Divergences</a></li>
-						<li><a href="/characters/">Personnages</a></li>
+						<li><a href="{{ site.url }}/plot/">Intrigue</a></li>
+						<li><a href="{{ site.url }}/divergences/">Divergences</a></li>
+						<li><a href="{{ site.url }}/characters/">Personnages</a></li>
 					</ul>
 				</li>
 			</menu>
