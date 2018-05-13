@@ -179,7 +179,6 @@ ol > li {
 /* line 207, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
 hr {
   border: none;
-  border-top: 1px solid #bbb;
   padding: 0;
   margin: 4.8rem 10rem 4.2rem; }
 
@@ -864,7 +863,7 @@ li > p {
  */
 /* line 245, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter p {
-  padding: 0.8rem 0 0;
+  padding: 0.3rem 0 0;
   margin: 0;
   text-indent: 1.6rem;
   text-align: justify;
@@ -881,7 +880,7 @@ li > p {
 
 /* line 266, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter hr {
-  margin: 3.2rem 10rem; }
+  margin: 2.4rem 0 0; }
 
 /* line 271, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter ul > li {
