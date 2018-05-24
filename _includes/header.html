@@ -9,11 +9,26 @@
 		{% endif %}
 		 | Ascension - Une Fan Fiction Sérialisée inspirée par Worm
 	</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Website content">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+	<link rel="icon" type="image/png" href="{% include url.html %}/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="{% include url.html %}/favicon-16x16.png" sizes="16x16">
+
 	<link href="{% include url.html %}/assets/Web Serial.css" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<div class="flex-container">
+		<div class="logo-pictogram">
+		</div>
+		<div class="page-heading">
+			<h1>{{ page.title }}</h1>
+		</div>
+		<div class="reading-option">
+
+		</div>
+		<!-- <div class="flex-container">
 			<div class="logo"><a href="{% include url.html %}">{{ site:title }}</a></div>
 			<menu>
 				<li>
@@ -63,8 +78,8 @@
 			</div>
 			{% endif %}
 
-		</div>
-		<div class="floating-list menu-dropdown-button">
+		</div> -->
+		<!-- <div class="floating-list menu-dropdown-button">
 			<button>Chapitres </button>
 			{% if site.posts.size > 0 %}
 			<ul class="">
@@ -79,5 +94,5 @@
 				{% endfor %}
 			</ul>
 			{% endif %}
-		</div>
+		</div> -->
 	</header>

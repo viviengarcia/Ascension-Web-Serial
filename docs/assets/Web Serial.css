@@ -21,203 +21,215 @@ marquée des paragraphes.
  * 7. Hacks
  * 8. Debug
  */
-/* Test */
 /**
  * ::Variables
  */
 /**
  * Utilities
  */
-/* line 31, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 7, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .mkd-l-centered {
   margin-right: auto;
   margin-left: auto; }
 
-/* line 37, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
-.txtcenter, h1, .content-chapter h2 {
+/* line 13, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+.txtcenter, h1, .size-h1, .content-chapter h2 {
   text-align: center; }
 
 /**
  * Élements
  */
 /* switching box model for all elements */
-/* line 48, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 24, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 55, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 31, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 html {
   font-size: 62.5%;
   background-color: #f5f2f2; }
 
-/* line 61, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 37, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 body {
-  margin: 0 auto !important;
   font-family: "Iowan Old Style", Georgia, serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.5;
   color: #0f0d09;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #f5f2f2; }
+  @media screen and (min-width: 1024px) {
+    /* line 37, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+    body {
+      margin: 0 auto; } }
 
-/* line 73, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 52, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 li:first-child {
   margin-top: 0; }
 
-/* line 78, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 57, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 pre, blockquote {
   padding: 2.4rem 0 0; }
 
-/* line 83, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 62, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 p {
   margin: 0; }
 
 /* you shall not pass */
-/* line 89, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 68, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 p, textarea, table, td, th, code, pre, samp {
   word-wrap: break-word;
   hyphens: auto; }
 
-/* line 93, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 72, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 strong {
   font-weight: 500;
   color: #555452; }
 
-/* line 99, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 78, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
   padding-top: 0; }
 
-/* line 104, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 83, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 h1 + p {
   padding-top: 0.4rem;
   font-size: 2.0rem;
   font-weight: 500;
   line-height: 1.2; }
 
-/* line 112, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 91, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 h2 + p {
   font-weight: 500; }
 
-/* line 117, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 96, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   font-weight: bold;
   cursor: text;
   color: #212120; }
 
-/* line 125, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
-h1 {
-  padding: 14rem 0 0.6rem;
-  margin-bottom: 9.6rem;
-  text-transform: uppercase;
-  line-height: 1.0;
-  font-size: 5.6rem; }
-  /* line 134, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
-  h1:before {
-    content: '|';
-    font-size: 4.0rem;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: -1.9rem;
-    margin-right: 1.6rem; }
-  /* line 144, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
-  h1:after {
-    content: '|';
-    font-size: 4rem;
-    display: inline-block;
-    vertical-align: middle;
-    margin-top: -1.9rem;
-    margin-left: 1.6rem; }
-
-/* line 155, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
-h2 {
+/* line 134, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+h2, .size-h2 {
   padding: 5rem 0 0.9rem;
   margin-bottom: 0.6rem;
   line-height: 1.5;
   font-size: 4.2rem;
   font-weight: 500; }
 
-/* line 164, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
-h3 {
+/* line 143, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+h3, .size-h3 {
   padding: 2.8rem 0 1.4rem;
   line-height: 1.25;
   font-size: 3.0rem;
   color: #212120; }
 
-/* line 172, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
-h4, h5, h6 {
+/* line 151, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+h4, h5, .size-h4, .size-h5 {
   padding: 0.2rem 0 0.4rem;
   line-height: 1;
   font-size: 2.2rem;
   color: #212120; }
 
-/* line 180, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 159, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+h6, .size-h6, .page-heading > h1 {
+  padding: 0.2rem 0 0.4rem;
+  line-height: 1;
+  font-size: 1.8rem;
+  color: #212120; }
+
+/* line 167, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+.size-chucknorris {
+  font-size: u(18.4rem); }
+
+/* line 172, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+.size-god {
+  font-size: u(11.2rem); }
+
+/* line 177, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+.size-hero {
+  font-size: u(7.2rem); }
+
+/* line 182, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+small, .small, .size-s {
+  font-size: u(1.4rem);
+  line-height: 2; }
+
+/* line 188, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+.size-xs {
+  font-size: u(1.2rem);
+  line-height: 2.4; }
+
+/* line 194, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
+.size-xxs {
+  font-size: u(1rem);
+  line-height: 4; }
+
+/* line 200, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 h2 + h3 {
   padding-top: 1.6rem; }
 
-/* line 185, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 205, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 h2 + h4, p + h4, ul + h4 {
   padding-top: 2.0rem; }
 
-/* line 190, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 210, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 ul, ol {
   padding-left: 2.4rem;
   margin-top: 0;
   margin-bottom: 0; }
 
-/* line 197, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 217, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 h4 + ul {
   padding-top: 0.4rem; }
 
-/* line 202, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 222, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 ol > li {
   margin-left: 1.2rem; }
 
-/* line 207, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 227, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 hr {
   border: none;
   padding: 0;
   margin: 4.8rem 10rem 4.2rem; }
 
-/* line 215, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 235, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 a {
   color: #4f7b9b;
   text-decoration: none; }
 
-/* line 220, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 240, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 a:hover {
   color: #7aafd6;
   text-decoration: underline; }
 
-/* line 226, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 246, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 a:visited {
   color: #6c6288; }
 
-/* line 231, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 251, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 #wrapper > *:first-child {
   margin-top: 0 !important; }
 
-/* line 237, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 256, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 #wrapper > *:last-child {
   margin-bottom: 0 !important; }
 
-/* line 242, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 261, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 li > img {
   display: inline-block;
   margin: 0 1px -1px; }
 
-/* line 256, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 267, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 li > li:first-child {
   margin-top: 0; }
 
-/* line 261, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 272, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl {
   padding: 0; }
 
-/* line 266, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 277, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl dt {
   font-size: 14px;
   font-weight: bold;
@@ -225,77 +237,77 @@ dl dt {
   padding: 0;
   margin: 15px 0 5px; }
 
-/* line 275, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 286, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl dt:first-child {
   padding: 0; }
 
-/* line 280, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 291, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl dt > :first-child {
   margin-top: 0; }
 
-/* line 285, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 296, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl dt > :last-child {
   margin-bottom: 0; }
 
-/* line 290, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 301, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl dd {
   margin: 0 0 15px;
   padding: 0 15px; }
 
-/* line 296, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 307, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl dd > :first-child {
   margin-top: 0; }
 
-/* line 301, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 312, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 dl dd > :last-child {
   margin-bottom: 0; }
 
-/* line 306, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 317, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 blockquote {
   border-left: 4px solid #DDD;
   padding: 0 15px;
   color: #777; }
 
-/* line 313, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 324, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 blockquote > :first-child {
   margin-top: 0; }
 
-/* line 318, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 329, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 blockquote > :last-child {
   margin-bottom: 0; }
 
-/* line 323, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 334, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
   font-size: 100%;
   font: inherit; }
 
-/* line 331, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 342, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 table th {
   font-weight: bold;
   border: 1px solid #ccc;
   padding: 6px 13px; }
 
-/* line 338, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 349, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 table td {
   border: 1px solid #ccc;
   padding: 6px 13px; }
 
-/* line 344, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 355, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 table tr {
   border-top: 1px solid #ccc;
   background-color: #fff; }
 
-/* line 350, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 361, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 table tr:nth-child(2n) {
   background-color: #f8f8f8; }
 
-/* line 355, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 366, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 img {
   max-width: 100%; }
 
-/* line 360, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 371, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 code, tt {
   display: inline-block;
   padding: 0 5px;
@@ -303,13 +315,13 @@ code, tt {
   margin: 0 2px;
   border-radius: 3px;
   line-height: 1.2;
-  font-family: 'Source Code Pro', Menlo, Consolas,'Liberation Mono',Courier,monospace;
+  font-family: "Source Code Pro", Menlo, Consolas, "Liberation Mono", Courier, monospace;
   font-weight: 500;
   white-space: nowrap;
   text-indent: 0;
   background-color: #efefef; }
 
-/* line 375, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 386, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 pre > code {
   margin: 0;
   padding: 0;
@@ -317,7 +329,7 @@ pre > code {
   border: 0;
   background: transparent; }
 
-/* line 384, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 395, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight pre {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
@@ -327,7 +339,7 @@ pre > code {
   padding: 6px 10px;
   border-radius: 3px; }
 
-/* line 395, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 406, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 pre {
   background-color: #f8f8f8;
   border: 1px solid #ccc;
@@ -337,23 +349,23 @@ pre {
   padding: 6px 10px;
   border-radius: 3px; }
 
-/* line 406, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 417, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 pre code, pre tt {
   background-color: transparent;
   border: 0; }
 
-/* line 412, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 423, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .poetry pre {
-  font-family: Georgia, Garamond, serif !important;
+  font-family: "Iowan Old Style", Georgia, serif;
   font-style: italic;
   font-size: 110% !important;
   line-height: 1.6em;
   display: block;
   margin-left: 1em; }
 
-/* line 422, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 433, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .poetry pre code {
-  font-family: Georgia, Garamond, serif !important;
+  font-family: "Iowan Old Style", Georgia, serif;
   word-break: break-all;
   word-break: break-word;
   -webkit-hyphens: auto;
@@ -361,7 +373,7 @@ pre code, pre tt {
   hyphens: auto;
   white-space: pre-wrap; }
 
-/* line 433, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 444, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 sup, sub, a.footnote {
   font-size: 1.4ex;
   height: 0;
@@ -369,333 +381,338 @@ sup, sub, a.footnote {
   vertical-align: super;
   position: relative; }
 
-/* line 442, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 453, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 sub {
   vertical-align: sub;
   top: -1px; }
 
 @media print {
-  /* line 450, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 461, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   body {
     background: #fff; }
-  /* line 455, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 466, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   img, pre, blockquote, table, figure {
     page-break-inside: avoid; }
-  /* line 460, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 471, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   #wrapper {
     background: #fff;
     border: 0; }
-  /* line 466, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 477, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   code {
     background-color: #fff;
     color: #333 !important;
     padding: 0 .2em;
     border: 1px solid #dedede; }
-  /* line 474, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 485, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   pre {
     background: #fff; }
-  /* line 479, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 490, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   pre code {
     background-color: white !important;
     overflow: visible; } }
 
 @media screen {
-  /* line 488, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 499, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   body.inverted {
     color: #eee !important;
     border-color: #555;
     box-shadow: none; }
-  /* line 495, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 506, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted #wrapper, .inverted hr .inverted p, .inverted td, .inverted li, .inverted h1, .inverted h2, .inverted h3, .inverted h4, .inverted h5, .inverted h6, .inverted th, .inverted .math, .inverted caption, .inverted dd, .inverted dt, .inverted blockquote {
     color: #eee !important;
     border-color: #555;
     box-shadow: none; }
-  /* line 502, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 513, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted td, .inverted th {
     background: #333; }
-  /* line 507, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 518, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted h2 {
     border-color: #555; }
-  /* line 512, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 523, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted hr {
     border-color: #777;
     border-width: 1px !important; }
-  /* line 518, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 529, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   ::selection {
     background: rgba(157, 193, 200, 0.5); }
-  /* line 523, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 534, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   h1::selection {
     background-color: rgba(45, 156, 208, 0.3); }
-  /* line 528, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 539, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   h2::selection {
     background-color: rgba(90, 182, 224, 0.3); }
-  /* line 533, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 544, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   h3::selection, h4::selection, h5::selection, h6::selection, li::selection, ol::selection {
     background-color: rgba(133, 201, 232, 0.3); }
-  /* line 538, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 549, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   code::selection {
     background-color: rgba(0, 0, 0, 0.7);
     color: #eee; }
-  /* line 544, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 555, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   code span::selection {
     background-color: rgba(0, 0, 0, 0.7) !important;
     color: #eee !important; }
-  /* line 550, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 561, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   a::selection {
     background-color: rgba(255, 230, 102, 0.2); }
-  /* line 555, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 566, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted a::selection {
     background-color: rgba(255, 230, 102, 0.6); }
-  /* line 560, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 571, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   td::selection, th::selection, caption::selection {
     background-color: rgba(180, 237, 95, 0.5); }
-  /* line 565, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 576, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted {
     background: #0b2531;
     background: #252a2a; }
-  /* line 571, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 582, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted #wrapper {
     background: #252a2a; }
-  /* line 576, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+  /* line 587, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
   .inverted a {
     color: #acd1d5; } }
 
-/* line 582, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 593, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .c {
   color: #998;
   font-style: italic; }
 
-/* line 588, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 599, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .err {
   color: #a61717;
   background-color: #e3d2d2; }
 
-/* line 594, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 605, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .k, .highlight .o {
   font-weight: bold; }
 
-/* line 599, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 610, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .cm {
   color: #998;
   font-style: italic; }
 
-/* line 605, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 616, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .cp {
   color: #999;
   font-weight: bold; }
 
-/* line 611, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 622, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .c1 {
   color: #998;
   font-style: italic; }
 
-/* line 617, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 628, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .cs {
   color: #999;
   font-weight: bold;
   font-style: italic; }
 
-/* line 624, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 635, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gd {
   color: #000;
   background-color: #fdd; }
 
-/* line 630, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 641, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gd .x {
   color: #000;
   background-color: #faa; }
 
-/* line 636, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 647, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .ge {
   font-style: italic; }
 
-/* line 641, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 652, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gr {
   color: #a00; }
 
-/* line 646, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 657, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gh {
   color: #999; }
 
-/* line 651, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 662, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gi {
   color: #000;
   background-color: #dfd; }
 
-/* line 657, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 668, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gi .x {
   color: #000;
   background-color: #afa; }
 
-/* line 663, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 674, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .go {
   color: #888; }
 
-/* line 668, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 679, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gp {
   color: #555; }
 
-/* line 673, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 684, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gs {
   font-weight: bold; }
 
-/* line 678, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 689, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gu {
   color: #800080;
   font-weight: bold; }
 
-/* line 684, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 695, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gt {
   color: #a00; }
 
-/* line 689, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 700, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr {
   font-weight: bold; }
 
-/* line 694, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 705, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .kt {
   color: #458;
   font-weight: bold; }
 
-/* line 700, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 711, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .m {
   color: #099; }
 
-/* line 705, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 716, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .s {
   color: #d14; }
 
-/* line 710, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 721, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .na {
   color: #008080; }
 
-/* line 715, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 726, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .nb {
   color: #0086b3; }
 
-/* line 720, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 731, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .nc {
   color: #458;
   font-weight: bold; }
 
-/* line 726, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 737, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .no {
   color: #008080; }
 
-/* line 731, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 742, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .ni {
   color: #800080; }
 
-/* line 736, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 747, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .ne, .highlight .nf {
   color: #900;
   font-weight: bold; }
 
-/* line 742, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 753, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .nn {
   color: #555; }
 
-/* line 747, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 758, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .nt {
   color: #000080; }
 
-/* line 752, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 763, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .nv {
   color: #008080; }
 
-/* line 757, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 768, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .ow {
   font-weight: bold; }
 
-/* line 762, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 773, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .w {
   color: #bbb; }
 
-/* line 767, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 778, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo {
   color: #099; }
 
-/* line 772, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 783, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .se, .highlight .sh, .highlight .si, .highlight .sx {
   color: #d14; }
 
-/* line 777, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 788, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .sr {
   color: #009926; }
 
-/* line 782, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 793, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .s1 {
   color: #d14; }
 
-/* line 787, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 798, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .ss {
   color: #990073; }
 
-/* line 792, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 803, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .bp {
   color: #999; }
 
-/* line 797, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 808, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .vc, .highlight .vg, .highlight .vi {
   color: #008080; }
 
-/* line 802, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 813, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .il {
   color: #099; }
 
-/* line 807, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 818, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .highlight .gc {
   color: #999;
   background-color: #eaf2f5; }
 
-/* line 813, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 824, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .type-csharp .highlight .k, .type-csharp .highlight .kt {
   color: #00F; }
 
-/* line 818, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 829, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .type-csharp .highlight .nf {
   color: #000;
   font-weight: normal; }
 
-/* line 824, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 835, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .type-csharp .highlight .nc {
   color: #2b91af; }
 
-/* line 829, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 840, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .type-csharp .highlight .nn {
   color: #000; }
 
-/* line 834, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss */
+/* line 845, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_marked.scss */
 .type-csharp .highlight .s, .type-csharp .highlight .sc {
   color: #a31515; }
 
-/* line 1, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/*
+ * Web Serial Components
+ */
+/* line 7, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 body {
+  margin: 0 0.9rem;
   overflow-x: hidden;
-  overflow-y: visible;
-  color: #212120; }
+  overflow-y: visible; }
 
-/* line 8, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 14, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 body, a, a:visited, button {
   color: #212120; }
 
-/* line 13, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
-.container-main-content {
-  margin: 0 auto;
-  width: 65rem; }
-
 /* line 19, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+.container-main-content {
+  margin: 0 auto; }
+  @media screen and (min-width: 1024px) {
+    /* line 19, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+    .container-main-content {
+      width: 65rem; } }
+
+/* line 28, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 header {
   display: block;
   position: sticky;
   top: 0;
   width: 100%;
   padding-top: 0.8rem;
-  font-size: 1.8rem;
   background-color: #f5f2f2;
   box-shadow: 0px 0px 48px 32px #f5f2f2; }
 
-/* line 31, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 40, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .flex-container {
   display: inline-flex;
   flex-direction: row;
@@ -704,36 +721,36 @@ header {
   width: 100%;
   border-bottom: 1px solid #dfd4d4; }
 
-/* line 41, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 50, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 header, header a {
   color: #333; }
 
-/* line 46, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 55, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 header a {
   padding: 0 0.6rem;
   border: 1px solid transparent; }
 
-/* line 52, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 61, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 header a:hover {
   text-decoration: none;
   border-radius: 0.2rem;
   border: 1px solid #dfd4d4;
   background-color: rgba(0, 0, 0, 0.06); }
 
-/* line 60, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 69, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 header menu li {
   display: inline-block; }
 
-/* line 65, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 74, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 header .logo {
-  margin-top: 0.6rem; }
+  font-size: 1.8rem; }
 
-/* line 69, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 79, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 header menu {
   margin: 0.6rem 0;
   padding-left: 0; }
 
-/* line 75, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 85, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .alt-nav {
   display: inline-flex;
   width: 65rem;
@@ -745,22 +762,21 @@ header menu {
   font-size: 1.3rem;
   color: #555; }
 
-/* line 88, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 98, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .word-count {
   display: inline-block;
   padding: 0.1rem 0.4rem 0; }
 
-/* line 94, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 104, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .next, .previous {
-  display: inline-block;
-  /*margin-top: 0.8rem;*/ }
+  display: inline-block; }
 
-/* line 100, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 109, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 li > p {
   display: inline;
   margin-left: -0.4rem; }
 
-/* line 106, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 115, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .button-not, .menu-dropdown-button > button, .floating-list button > button {
   border: none;
   font-family: "Iowan Old Style", Georgia, serif;
@@ -770,7 +786,7 @@ li > p {
 /*
  *	ZONE: HEADER
  */
-/* line 122, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 131, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .menu-dropdown-button > button:after, .floating-list button > button:after {
   content: "▽";
   display: inline-block;
@@ -778,19 +794,19 @@ li > p {
   padding: 0 0.3rem 0.3rem;
   vertical-align: middle; }
 
-/* line 134, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 143, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .menu-dropdown-button:hover > button:after, .floating-list button:hover > button:after {
   display: none; }
 
-/* line 140, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 149, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .menu-dropdown-button:hover, .floating-list button:hover {
   margin-right: 2.1rem; }
 
-/* line 145, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 154, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .menu-dropdown-button > ul, .floating-list button > ul {
   display: none; }
 
-/* line 150, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 159, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .menu-dropdown-button:hover > ul, .floating-list button:hover > ul {
   display: unset;
   position: absolute;
@@ -801,7 +817,7 @@ li > p {
   border-radius: 0.6rem;
   box-shadow: 0px 3px 36px 6px rgba(0, 0, 0, 0.12);
   background-color: #f5f2f2; }
-  /* line 162, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+  /* line 171, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
   .menu-dropdown-button:hover > ul:before, .floating-list button:hover > ul:before {
     content: url("menu-top.png");
     z-index: 100;
@@ -811,13 +827,13 @@ li > p {
     width: 16px;
     height: 16px;
     background-color: transparent; }
-  /* line 174, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+  /* line 183, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
   .menu-dropdown-button:hover > ul li, .floating-list button:hover > ul li {
     text-align: right;
     font-size: 1.6rem;
     list-style-type: none; }
 
-/* line 182, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 191, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .floating-list {
   position: absolute;
   top: 18rem;
@@ -828,22 +844,22 @@ li > p {
   border-radius: 0.4rem 0 0 0.4rem;
   background-color: #d5e6f3;
   cursor: pointer; }
-  /* line 194, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+  /* line 203, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
   .floating-list button {
     display: block;
     padding: 0.8rem 0.8rem 0.8rem 1.2rem;
     margin-right: 0; }
 
-/* line 203, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 212, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .floating-list.menu-dropdown-button:hover, .floating-list button.floating-list:hover {
   margin-right: 0; }
-  /* line 207, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+  /* line 216, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
   .floating-list.menu-dropdown-button:hover button, .floating-list button.floating-list:hover button {
     margin-right: 2.1rem; }
-  /* line 211, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+  /* line 220, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
   .floating-list.menu-dropdown-button:hover ul, .floating-list button.floating-list:hover ul {
     width: max-content; }
-    /* line 215, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+    /* line 224, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
     .floating-list.menu-dropdown-button:hover ul:before, .floating-list button.floating-list:hover ul:before {
       content: url("menu-top.png");
       z-index: 100;
@@ -854,14 +870,14 @@ li > p {
       height: 16px;
       background-color: transparent; }
 
-/* line 232, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 241, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .menu-dropdown-list li {
   display: list-item; }
 
 /*
  *	LAYOUT: CHAPTER
  */
-/* line 245, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 254, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter p {
   padding: 0.3rem 0 0;
   margin: 0;
@@ -869,23 +885,23 @@ li > p {
   text-align: justify;
   text-align-last: auto; }
 
-/* line 254, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 263, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter p:first-of-type {
   text-indent: unset; }
 
-/* line 259, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 268, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter h2 {
   padding-top: 8rem;
   margin-top: 8.2rem; }
 
-/* line 266, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 275, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter hr {
   margin: 2.4rem 0 0; }
 
-/* line 271, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 280, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter ul > li {
   list-style-type: none; }
-  /* line 275, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+  /* line 284, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
   .content-chapter ul > li:before {
     content: '\25aa \a0';
     display: inline-block;
@@ -895,8 +911,40 @@ li > p {
     font-weight: 500;
     color: #555452; }
 
-/* line 287, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+/* line 296, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
 .content-chapter code {
   white-space: pre-wrap; }
+
+/* line 302, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+header {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  border-bottom: 1px solid #dfd4d4; }
+
+/* line 312, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+.logo-pictogram {
+  display: inline-flex;
+  width: 1.8rem;
+  height: 1.8rem;
+  max-width: 20%;
+  background: transparent url("http://via.placeholder.com/18x18") top left no-repeat; }
+
+/* line 321, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+.page-heading {
+  max-width: 60%; }
+
+/* line 326, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+.page-heading > h1 {
+  font-weight: 500; }
+
+/* line 332, Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_components.scss */
+.reading-option {
+  width: 1.8rem;
+  height: 1.8rem;
+  max-width: 20%;
+  background: transparent url("http://via.placeholder.com/18x18") top left no-repeat; }
 
 /*# sourceMappingURL=Web Serial.css.map */
