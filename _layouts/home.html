@@ -6,9 +6,16 @@ layout: default
 
 {% for post in sortedPosts %}
 	{% if post.category == "chapitres" or post.category == "interludes" %}
-	<h1>{{ post.title }}</h1>
+
+	<article class="content-chapter">
+	<h2>{{ post.title }}</h2>
 	<hr>
-	{{ post.content }}
+	{{ post.content | markdownify }}
+	</article>
+
+	<!-- <h1>{{ post.title }}</h1>
+	<hr>
+	{{ post.content }} -->
 	{% break %}
 	{% endif %}
 

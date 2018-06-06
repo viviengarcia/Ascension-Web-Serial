@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html>
 <head>
 	<title>
 		{% if page.url == "/" %}
@@ -17,17 +15,30 @@
 	<link rel="icon" type="image/png" href="{% include url.html %}/favicon-16x16.png" sizes="16x16">
 
 	<link href="{% include url.html %}/assets/Web Serial.css" rel="stylesheet">
+
+	<script src="{% include url.html %}/bower_components/jquery/dist/jquery.slim.js"></script>
 </head>
 <body>
-	<header>
-		<div class="logo-pictogram">
+	<header class="ws-header">
+		<div class="ws-img">
 		</div>
-		<div class="page-heading">
+		<div class="ws-heading">
 			<h1 class="state-initial">{{ page.title }}</h1>
 		</div>
-		<div class="reading-option">
+		<button id="show-alt-nav-interface" class="ws-button"></button>
+		<!-- <div class="ws-button"> -->
+<!-- 			<div class="buttons">
+				<button id="show-main-nav-interface" class="show-main-nav-interface"></button>
 
-		</div>
+				<button id="show-comment-editor-interface" class="show-comment-editor-interface"></button>
+			</div>
+			<div class="panels">
+				<div id="interface-main-nav" class="interface-main-nav"></div>
+				<div id="interface-alt-nav" class="interface-alt-nav"></div>
+				<div id="interface-comment-editor" class="interface-comment-editor"></div>
+				<div id="interface-comment-viewer" class="interface-comment-viewer"></div>
+			</div> -->
+		<!-- </div> -->
 		<!-- <div class="flex-container">
 			<div class="logo"><a href="{% include url.html %}">{{ site:title }}</a></div>
 			<menu>

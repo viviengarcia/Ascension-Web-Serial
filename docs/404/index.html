@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>
+	<head>
 	<title>
 		
 			
@@ -11,10 +11,12 @@
 	<meta name="description" content="Website content">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-	<link rel="icon" type="image/png" href="https://viviengarcia.github.io/Ascension-Web-Serial/favicon-32x32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="https://viviengarcia.github.io/Ascension-Web-Serial/favicon-16x16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
-	<link href="https://viviengarcia.github.io/Ascension-Web-Serial/assets/Web Serial.css" rel="stylesheet">
+	<link href="/assets/Web Serial.css" rel="stylesheet">
+
+	<script src="/bower_components/jquery/dist/jquery.slim.js"></script>
 </head>
 <body>
 	<header>
@@ -23,11 +25,21 @@
 		<div class="page-heading">
 			<h1 class="state-initial"></h1>
 		</div>
-		<div class="reading-option">
-
+		<div class="interface">
+			<div class="buttons">
+				<button id="show-main-nav-interface" class="show-main-nav-interface"></button>
+				<button id="show-alt-nav-interface" class="show-alt-nav-interface"></button>
+				<button id="show-comment-editor-interface" class="show-comment-editor-interface"></button>
+			</div>
+			<div class="panels">
+				<div id="interface-main-nav" class="interface-main-nav"></div>
+				<div id="interface-alt-nav" class="interface-alt-nav"></div>
+				<div id="interface-comment-editor" class="interface-comment-editor"></div>
+				<div id="interface-comment-viewer" class="interface-comment-viewer"></div>
+			</div>
 		</div>
 		<!-- <div class="flex-container">
-			<div class="logo"><a href="https://viviengarcia.github.io/Ascension-Web-Serial">Ascension</a></div>
+			<div class="logo"><a href="">Ascension</a></div>
 			<menu>
 				<li>
 				
@@ -37,21 +49,21 @@
 						
 					
 						
-							<a class="post-link" href="https://viviengarcia.github.io/Ascension-Web-Serial/chapitres/source-1.1/">
+							<a class="post-link" href="/chapitres/source-1.1/">
 								Dernier Chapitre : Source 1.1
 							</a>
 							
 				
 				</li>
 				<li>
-					<a href="https://viviengarcia.github.io/Ascension-Web-Serial/sommaire/">Chapitres</a>
+					<a href="/sommaire/">Chapitres</a>
 				</li>
 				<li class="menu-dropdown-button">
 					<button>Annexe </button>
 					<ul class="menu-dropdown-list ">
-						<li><a href="https://viviengarcia.github.io/Ascension-Web-Serial/plot/">Intrigue</a></li>
-						<li><a href="https://viviengarcia.github.io/Ascension-Web-Serial/divergences/">Divergences</a></li>
-						<li><a href="https://viviengarcia.github.io/Ascension-Web-Serial/characters/">Personnages</a></li>
+						<li><a href="/plot/">Intrigue</a></li>
+						<li><a href="/divergences/">Divergences</a></li>
+						<li><a href="/characters/">Personnages</a></li>
 					</ul>
 				</li>
 			</menu>
@@ -66,7 +78,7 @@
 				
 					
 					<li>
-						<a class="post-link" href="https://viviengarcia.github.io/Ascension-Web-Serial/chapitres/decadence/">
+						<a class="post-link" href="/chapitres/decadence/">
 							Prologue : Décadence
 						</a>
 					</li>
@@ -74,7 +86,7 @@
 				
 					
 					<li>
-						<a class="post-link" href="https://viviengarcia.github.io/Ascension-Web-Serial/chapitres/source-1.1/">
+						<a class="post-link" href="/chapitres/source-1.1/">
 							Source 1.1
 						</a>
 					</li>
@@ -89,8 +101,8 @@
 		</div> -->
 	</header>
 
-<div class="container-main-content">
-<style type="text/css" media="screen">
+	<div class="container-main-content">
+	<style type="text/css" media="screen">
   .container {
     margin: 10px auto;
     max-width: 600px;
@@ -111,8 +123,8 @@
   <p>The requested page could not be found.</p>
 </div>
 
-</div>
-<footer>
+	</div>
+	<footer>
 	<div class="nav-alt-footer">
 		<button>Previous Chapter</button>
 		<button>Up</button>
@@ -123,3 +135,20 @@
 		<p>Largement inspiré par <a href="https://parahumans.wordpress.com/">Worm</a>. Les personnages et oeuvre originale sont la propriété excusive de John McRae.</p>
 	</div>
 </footer>
+	<script type="text/javascript">
+
+	// Variables
+	// Buttons
+	var buttonMainNav = $("#show-main-nav-interface");
+	var buttonAltNav = $("#show-alt-nav-interface");
+	var buttonComEdit = $("#show-comment-editor-interface");
+
+	// Panels
+	var panelMainNav = $("#interface-main-nav");
+	var panelAltNav = $("#interface-alt-nav");
+	var panelComeEdit = $("#interface-comment-editor");
+	var panelComViewer = $("#interface-comment-viewer");
+
+
+</script>
+</html>

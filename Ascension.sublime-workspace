@@ -16,37 +16,55 @@
 	"buffers":
 	[
 		{
-			"file": "_posts/2018-04-18-decadence.md",
-			"settings":
-			{
-				"buffer_size": 36676,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_posts/2018-04-06-source-1.1.md",
-			"settings":
-			{
-				"buffer_size": 10298,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "_includes/header.html",
 			"settings":
 			{
-				"buffer_size": 2209,
+				"buffer_size": 3642,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "_config.yml",
+			"file": "_includes/footer.html",
 			"settings":
 			{
-				"buffer_size": 1849,
+				"buffer_size": 438,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "plot.md",
+			"settings":
+			{
+				"buffer_size": 29237,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_includes/js.html",
+			"settings":
+			{
+				"buffer_size": 439,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/default.html",
+			"settings":
+			{
+				"buffer_size": 168,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "_layouts/chapter.html",
+			"settings":
+			{
+				"buffer_size": 224,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -64,6 +82,30 @@
 		"selected_items":
 		[
 			[
+				"mark",
+				"Marked"
+			],
+			[
+				"marked",
+				"Marked"
+			],
+			[
+				"snippet j",
+				"Snippet: link - jquery"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"snippet",
+				"Snippet: html starter"
+			],
+			[
+				"ma",
+				"Marked"
+			],
+			[
 				"insta",
 				"Package Control: Install Package"
 			],
@@ -72,16 +114,8 @@
 				"Package Control: List Packages"
 			],
 			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
 				"inst",
 				"Package Control: Install Package"
-			],
-			[
-				"ma",
-				"Marked"
 			],
 			[
 				"m",
@@ -127,13 +161,50 @@
 		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial",
 		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes",
 		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_layouts",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts"
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs"
 	],
 	"file_history":
 	[
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/bower_components/jquery/dist/jquery.js",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Char. (guillemets open).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Char. (guillemets closed).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (anim).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (build).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (client).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (deco).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (done).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (server).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (unsure).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (util).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Image.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Link (explicite).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Link.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-guillemets-open.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-guillemets-closed.sublime-snippet",
 		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/about.md",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/sommaire/index.html",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_layouts/home.html",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts/2018-04-06-source-1.1.md",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts/snippets.md",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes/footer.html",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/js_is-jquery-loaded.sublime-snippet",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_config.yml",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/assets/Web Serial.css",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/.aliases",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-word--etats-unis.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-dialog-dash.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/templating/Liquid Variable.sublime-snippet",
 		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/index.html",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/templating/erb-render.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/templating/erb-include.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/php/$_GET.sublime-snippet",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes/url.html",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes/header.html",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_layouts/default.html",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_config_dev.yml",
+		"/Volumes/Data/vivien/.Trash/config.codekit3",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts/2018-04-18-decadence.md",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/sommaire/index.html",
 		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_in/_templates/index.pug",
 		"/Volumes/Data/vivien/Digital Creation/Jekyll Test/Ascension.sublime-project",
 		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_test/index.pug",
@@ -207,7 +278,7 @@
 	],
 	"find":
 	{
-		"height": 33.0
+		"height": 45.0
 	},
 	"find_in_files":
 	{
@@ -221,6 +292,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"content-chapter",
+			"publite-interface-panel ",
+			"'",
+			"class",
+			"purpose-",
+			"publit",
+			"yourcode",
+			"assets/",
+			"font-family",
+			"nécessaire",
+			"réalis",
+			"douloureuse",
+			"villains",
+			"{{ site.url }}",
+			"»",
+			"«",
+			"\"/\"",
+			"/",
 			"?",
 			"Morteau",
 			"Préaration",
@@ -242,36 +331,49 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "_posts/2018-04-18-decadence.md",
+					"file": "_includes/header.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 36676,
+						"buffer_size": 3642,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								454,
-								454
+								1509,
+								1509
 							]
 						],
 						"settings":
 						{
-							"SL.28.region_keys":
+							"SL.15.region_keys":
+							[
+							],
+							"SL.29.region_keys":
+							[
+							],
+							"SL.30.region_keys":
+							[
+							],
+							"SL.36.region_keys":
+							[
+							],
+							"SL.48.region_keys":
 							[
 							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 410.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
@@ -279,64 +381,61 @@
 				},
 				{
 					"buffer": 1,
-					"file": "_posts/2018-04-06-source-1.1.md",
-					"semi_transient": true,
+					"file": "_includes/footer.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10298,
+						"buffer_size": 438,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								438,
+								438
 							]
 						],
 						"settings":
 						{
-							"SL.29.region_keys":
-							[
-							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "_includes/header.html",
+					"file": "plot.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2209,
+						"buffer_size": 29237,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								281,
-								281
+								3,
+								3
 							]
 						],
 						"settings":
 						{
+							"SL.143.region_keys":
+							[
+							],
 							"SL.30.region_keys":
 							[
 							],
-							"SL.71.region_keys":
-							[
-							],
+							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -347,19 +446,61 @@
 				},
 				{
 					"buffer": 3,
-					"file": "_config.yml",
+					"file": "_includes/js.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1849,
+						"buffer_size": 439,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								542,
-								542
+								110,
+								110
+							]
+						],
+						"settings":
+						{
+							"SL.30.region_keys":
+							[
+							],
+							"SL.31.region_keys":
+							[
+							],
+							"SL.50.region_keys":
+							[
+							],
+							"SL.66.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "_layouts/default.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 168,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								157,
+								157
 							]
 						],
 						"settings":
@@ -367,34 +508,73 @@
 							"SL.31.region_keys":
 							[
 							],
-							"SL.70.region_keys":
+							"SL.32.region_keys":
+							[
+							],
+							"SL.61.region_keys":
 							[
 							],
 							"git_gutter_is_enabled": true,
-							"syntax": "Packages/YAML/YAML.sublime-syntax"
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 209.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 5,
+					"file": "_layouts/chapter.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.33.region_keys":
+							[
+							],
+							"git_gutter_is_enabled": true,
+							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 33.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 45.0
+		"height": 46.0
 	},
 	"layout":
 	{
@@ -421,7 +601,7 @@
 		"rows":
 		[
 			0.0,
-			0.871380162323,
+			0.83109264576,
 			1.0
 		]
 	},
@@ -438,11 +618,15 @@
 	{
 		"height": 0.0
 	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
 	"pinned_build_system": "",
 	"project": "Ascension.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 60.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -451,6 +635,46 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"foot",
+				"Ascension-Web-Serial/_includes/footer.html"
+			],
+			[
+				".md",
+				"Ascension-Web-Serial/plot.md"
+			],
+			[
+				"md",
+				"Ascension-Web-Serial/about.md"
+			],
+			[
+				"footer",
+				"Ascension-Web-Serial/_includes/footer.html"
+			],
+			[
+				"config",
+				"Ascension-Web-Serial/_config.yml"
+			],
+			[
+				"w",
+				"Ascension-Web-Serial/docs/assets/Web Serial.css"
+			],
+			[
+				"snip",
+				"Ascension-Web-Serial/_posts/snippets.md"
+			],
+			[
+				"sni",
+				"Ascension-Web-Serial/_posts/snippets.md"
+			],
+			[
+				"inde",
+				"Ascension-Web-Serial/docs/index.html"
+			],
+			[
+				"_",
+				"Ascension-Web-Serial/_config.yml"
+			]
 		],
 		"width": 0.0
 	},
@@ -483,7 +707,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 200.0,
 	"status_bar_visible": true,
 	"template_settings":

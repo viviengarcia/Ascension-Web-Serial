@@ -46,5 +46,5 @@ exclude:
 
 
 destination: docs
-keep_files: [assets/Web Serial.css, assets/Web Serial.css.map, assets/menu-top.png, favicon-32x32.png, favicon-16x16.png]
+keep_files: [assets/Web Serial.css, assets/Web Serial.css.map, assets/menu-top.png, favicon-32x32.png, favicon-16x16.png, bower_components, bower.json]
 permalink: /:categories/:title/
