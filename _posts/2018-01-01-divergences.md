@@ -1,5 +1,6 @@
 ---
 title: Divergences
+category: wiki
 layout: chapter
 ---
 

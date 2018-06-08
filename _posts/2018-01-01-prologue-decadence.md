@@ -1,8 +1,8 @@
 ---
 title: "Prologue : Décadence"
-category: chapitres
+category: chapters
 layout: chapter
-date: 2018-04-06 11:30:01
+date: 2018-01-01 07:01:01
 ---
 
 Greg Veder rangea ses affaires sans perdre de temps. Diligent et appliqué, il boucla rapidement son sac sans manifester sa maladresse usuelle. Il partageait son cours sur les Affaires Mondiales avec Madison, et malgré un relatif désintérêt du Trio du Mal cette dernière semaine, il préférait ne pas trop compter sur la chance pour bien finir la journée.
