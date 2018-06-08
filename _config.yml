@@ -28,23 +28,24 @@ github_username:  ""
 markdown: kramdown
 # theme: ""
 plugins:
-  - jekyll-feed
+  # - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
-    - Ascension.sublime-project
-    - Ascension.sublime-workspace
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+  - PubLite.sublime-project
+  - PubLite.sublime-workspace
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  # - node_modules
+  # - vendor/bundle/
+  # - vendor/cache/
+  # - vendor/gems/
+  # - vendor/ruby/
 
 
 destination: docs
-keep_files: [assets/Web Serial.css, assets/Web Serial.css.map, assets/menu-top.png, favicon-32x32.png, favicon-16x16.png, bower_components, bower.json]
+keep_files: [assets/web-serial.css, assets/web-serial-min.css, assets/menu-top.png, favicon-32x32.png, favicon-16x16.png, bower_components, bower.json]
 permalink: /:categories/:title/
