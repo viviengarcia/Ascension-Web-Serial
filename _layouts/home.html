@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<h3><a href="{% include url.html %}/chapters/origine-1.1">Chapitre 1 : Origine 1.1</a></h3>
+
 {% assign sortedPosts = site.posts | sort: 'date' | reverse %}
 
 {% for post in sortedPosts %}

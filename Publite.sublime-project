@@ -3,7 +3,7 @@
 	[
 		{
 			"path": ".",
-			"folder_exclude_patterns": ["docs", "_posts"],
+			"folder_exclude_patterns": ["_posts"],
 			"file_exclude_patterns": ["Gemfile", "Gemfile.lock", ".gitignore", "index.md"]
 		}
 	]
