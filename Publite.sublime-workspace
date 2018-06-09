@@ -5,70 +5,56 @@
 		[
 			[
 				"text",
-				"text-align"
+				"text-transform"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inlne",
+				"inline-flex"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"margin",
+				"margin"
 			],
 			[
 				"back",
-				"background-color"
+				"background"
+			],
+			[
+				"si",
+				"size-h6"
+			],
+			[
+				"color",
+				"colorset_page-regular-background-shadow"
+			],
+			[
+				"colorset",
+				"colorset_page-regular-background"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"menu",
+				"menu-dropdown-button"
+			],
+			[
+				"block",
+				"inline-block"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "_includes/header.html",
-			"settings":
-			{
-				"buffer_size": 3642,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/footer.html",
-			"settings":
-			{
-				"buffer_size": 438,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "plot.md",
-			"settings":
-			{
-				"buffer_size": 29237,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_includes/js.html",
-			"settings":
-			{
-				"buffer_size": 439,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_layouts/default.html",
-			"settings":
-			{
-				"buffer_size": 168,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "_layouts/chapter.html",
-			"settings":
-			{
-				"buffer_size": 224,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -82,27 +68,7 @@
 		"selected_items":
 		[
 			[
-				"mark",
-				"Marked"
-			],
-			[
 				"marked",
-				"Marked"
-			],
-			[
-				"snippet j",
-				"Snippet: link - jquery"
-			],
-			[
-				"list",
-				"Package Control: List Packages"
-			],
-			[
-				"snippet",
-				"Snippet: html starter"
-			],
-			[
-				"ma",
 				"Marked"
 			],
 			[
@@ -114,8 +80,16 @@
 				"Package Control: List Packages"
 			],
 			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
 				"inst",
 				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Marked"
 			],
 			[
 				"m",
@@ -158,77 +132,120 @@
 	},
 	"expanded_folders":
 	[
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_layouts",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs"
+		"/Volumes/Data/vivien/Digital Creation/PubLite"
 	],
 	"file_history":
 	[
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/bower_components/jquery/dist/jquery.js",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Char. (guillemets open).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Char. (guillemets closed).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (anim).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (build).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (client).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (deco).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (done).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (server).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (unsure).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Picto (util).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Image.sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Link (explicite).sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Link.sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-guillemets-open.sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-guillemets-closed.sublime-snippet",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/about.md",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_layouts/home.html",
+		"/Volumes/Data/vivien/Digital Creation/PubLite/Publite.sublime-project",
+		"/Volumes/Data/vivien/Digital Creation/PubLite/Publite.sublime-workspace",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/_in/sass/_hacks.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/_in/sass/Web Serial.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/Web Serial - Marked Theme.sublime-project",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/_out/web-serial.css",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/_in/sass/_components.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/_in/sass/_vars.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/_in/sass/_debug.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/.git/description",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Description Sheet/README.md",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/README.md",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/Web Serial - A Custom Marked Stylesheet.sublime-project",
+		"/Volumes/Data/vivien/Digital Creation/Marked Themes/Web Serial/Web Serial - A Custom Marked Stylesheet.sublime-workspace",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_test/publite.html",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_test/marked.html",
+		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/chapitres/source-1.1/index.html",
 		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts/2018-04-06-source-1.1.md",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts/snippets.md",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes/footer.html",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/js_is-jquery-loaded.sublime-snippet",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_config.yml",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/assets/Web Serial.css",
+		"/Volumes/Data/vivien/Desktop/plot.html",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_test/index.html",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/MarkedCustomStyles/Pesto.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_out/Web Serial.css",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/CSS - Scss Comment (small).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/CSS - Scss @include.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/CSS - Scss Comment (large).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/CSS - Scss Comment (medium).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/CSS - Scss @mixin.sublime-snippet",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_test/index.pug",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/MarkedCustomStyles/generate_examples/out/Header.html",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/MarkedCustomStyles/Firates.css",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/MarkedCustomStyles/generate_examples/out/Firates.html",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_test/index.md",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_vars.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/Web Serial.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_normalize.scss",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_js.scss",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/CSS - Scss @extend.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/css/CSS - @media.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/md/Markdown - Image.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Dialog Dash.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Character (almost equal).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Guillemets (closed).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Guillemets (open).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Word (Brockton Bay).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Word (Endbringers).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Markdown - Word (Etats-Unis).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/css/CSS - Scss Media query (desktop).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/css/CSS - Scss Media query (phablet).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/css/CSS - Scss Media query (phone).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/css/CSS - Scss Media query (tablet).sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/css/CSS - media-query-desktop.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/Scss - @extend.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/scss/Scss - @extend.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/scss/scss-@extend.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/All - Todo.sublime-snippet",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/css/partial-sass-comment.sublime-snippet",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_out/Web Serial.css.map",
+		"/Volumes/Data/vivien/Digital Creation/Marked Custom Styles/Web Serial/_in/sass/_main.scss",
 		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/.aliases",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-word--etats-unis.sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/markdown-dialog-dash.sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/templating/Liquid Variable.sublime-snippet",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/index.html",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/templating/erb-render.sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/templating/erb-include.sublime-snippet",
-		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/SublimeText 3/Sublime Text 3/Packages/User/Snippets/php/$_GET.sublime-snippet",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes/url.html",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_includes/header.html",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_layouts/default.html",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_config_dev.yml",
-		"/Volumes/Data/vivien/.Trash/config.codekit3",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_posts/2018-04-18-decadence.md",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/docs/sommaire/index.html",
-		"/Volumes/Data/vivien/Digital Creation/Ascension - Novel/Ascension-Web-Serial/_in/_templates/index.pug",
-		"/Volumes/Data/vivien/Digital Creation/Jekyll Test/Ascension.sublime-project",
+		"/Volumes/Data/vivien/Dropbox/_Vivien/__Repository/_Software/Firefox 58/Location - default profile/chrome/userChrome.css",
+		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_out/Web Serial.css",
+		"/Volumes/Data/vivien/Digital Creation/Ascension/_config.yml",
+		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_out/Web Serial.css.map",
 		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_test/index.pug",
-		"/Volumes/Data/vivien/Digital Creation/Ascension/_in/_templates/index.js",
-		"/Volumes/Data/vivien/Digital Creation/Ascension/Ascension - Eclosion 1.1.md",
+		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_test/various.html",
+		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_in/pug/index.pug",
+		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_test/index.html",
+		"/usr/local/lib/node_modules/jstransformer-markdown-it/node_modules/markdown-it/package.json",
+		"/Volumes/Data/vivien/package-lock.json",
+		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/post.md",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/.path",
+		"/Volumes/Data/vivien/.bash_profile",
+		"/Volumes/Data/vivien/.bash/.prompt",
+		"/Volumes/Data/vivien/.bash/.path",
+		"/Volumes/Data/vivien/.bash/.aliases",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/.extras",
+		"/Volumes/Data/vivien/.bash/.exports",
+		"/Volumes/Data/vivien/.bash/.extras",
+		"/Volumes/Data/vivien/.bash/.inputrc",
+		"/Volumes/Data/vivien/.bash/.functions",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/prompt",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/path",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/inputrc",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/functions",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/extras",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/exports",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/bash_profile",
+		"/Volumes/Data/vivien/.bash_history",
+		"/private/etc/shells",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/conf/aliases",
+		"/Volumes/Data/vivien/.iterm2_shell_integration.bash",
+		"/Volumes/Data/vivien/.bash/aliases",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/install.sh",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/symlinks.sh",
+		"/Volumes/Data/vivien/Digital Creation/Dotfiles/cask",
 		"/Volumes/Data/vivien/Digital Creation/Ascension/Ascension - Plot.md",
-		"/Volumes/Data/vivien/Digital Creation/Ascension/test.js",
 		"/Volumes/Vivien_OLD/Users/vivien/Documents/Recettes de Cuisine/Charlotte Royale.md",
 		"/Volumes/Vivien_OLD/Users/vivien/Documents/Recettes de Cuisine/Croquettes au jambon.md",
 		"/Volumes/Vivien_OLD/Users/vivien/Documents/Recettes de Cuisine/Glacage Chocolat Mirroir.md",
 		"/Volumes/Vivien_OLD/Users/vivien/Documents/Recettes de Cuisine/Recette Mont d'Or.txt",
 		"/Volumes/Data/vivien/Library/Application Support/Sublime Text 3/Installed Packages/Marked App Menu.sublime-package",
-		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_in/pug/index.pug",
 		"/Applications/CodeKit.app/Contents/Resources/engines/node_modules/pug-filters/package.json",
 		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_in/sass/Web Serial.scss",
 		"/Volumes/Data/vivien/Desktop/Ascension - Plot.md",
 		"/Volumes/Data/vivien/Desktop/Ascension - Eclosion 1.1.md",
-		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_test/index.html",
 		"/Volumes/Data/vivien/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
 		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_in/sass/_main.scss",
 		"/Applications/CodeKit.app/Contents/Resources/engines/node_modules/pug-filters/node_modules/jstransformer/package.json",
 		"/Volumes/Data/vivien/Library/Application Support/Sublime Text 3/Packages/DashDoc/Default (OSX).sublime-keymap",
 		"/Volumes/Data/vivien/Library/Application Support/Sublime Text 3/Packages/DashDoc/DashDoc.sublime-settings",
-		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_out/Web Serial.css",
 		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/config.codekit3",
 		"/Volumes/Data/vivien/Digital Creation/Marked-Custom-CSS/Web Serial/_in/sass/_debug.scss",
 		"/Volumes/Data/vivien/Library/Application Support/Sublime Text 3/Packages/User/Snippets/tilde-equal.sublime-snippet",
@@ -246,74 +263,24 @@
 		"/Volumes/Data/vivien/Desktop/Narucheato - Notes.md",
 		"/Volumes/Data/vivien/Narucheato - Notes",
 		"/Volumes/Data/vivien/Pictures/PhotoRec Recovery/recup_dir.1/report.xml",
-		"/Volumes/Data/vivien/Desktop/Déclaration Handicap Sonia.md",
-		"/Volumes/OSX Data/Users/vivien/Movies/Geek/Base-Ball.gifv",
-		"/Volumes/OSX Data/Users/vivien/Movies/Geek/Wasted.gifv",
-		"/Volumes/OSX Data/Users/vivien/Movies/Geek/People's Elbow.gifv",
-		"/Volumes/OSX Data/Users/vivien/Movies/Geek/Parade Nuptiale.gifv",
-		"/Volumes/OSX Data/Users/vivien/Movies/Geek/Huge Stairs Skate Jump.gifv",
-		"/Volumes/OSX Data/Users/vivien/Movies/Geek/ADHD.gifv",
-		"/Volumes/Data/vivien/Git/Dotfiles/conf/aliases",
-		"/Volumes/Data/vivien/Downloads/DI.FM - Favorites.pls",
-		"/Volumes/OSX Data/Users/vivien/Dropbox/Mackup/Library/KeyBindings/DefaultKeyBinding.dict",
-		"/Volumes/Data/vivien/Library/Saved Searches/All copy.savedSearch",
-		"/Volumes/Data/vivien/Downloads/citra-osx-20170804-343bbfd/README.md",
-		"/Volumes/Data/vivien/Dropbox/echange/backup_2016-01-07-02-51-50",
-		"/Volumes/Data/vivien/Git/Dotfiles/conf/bash_profile",
-		"/Volumes/OSX Data/Users/vivien/Création Numérique/Projets/__Perso/Marked - Custom CSS/Fiche Descriptive/_out/.com.greenworldsoft.syncfolderspro",
-		"/Volumes/Data/vivien/.gitignore",
-		"/Volumes/OSX Data/Users/vivien/Création Numérique/Projets/__Perso/Marked - Custom CSS/Fiche Descriptive/_in/sass/.sass-cache/5833df3b77eb7c8c6dc722c171ef936c4d3172f5/stylesheet.scssc",
-		"/Volumes/Data/vivien/.gitconfig",
-		"/Volumes/Data/vivien/Git/Dotfiles/conf/extras",
-		"/Volumes/Data/vivien/Git/Dotfiles/conf/exports",
-		"/Volumes/Data/vivien/Desktop/bootlog.log.txt",
-		"/Volumes/EFI/EFI/CLOVER/config.plist",
-		"/usr/local/share/bash-completion/bash_completion",
-		"/Volumes/Data/vivien/Git/Dotfiles/conf/inputrc",
-		"/Volumes/Data/vivien/Git/Dotfiles/conf/bash/aliases",
-		"/Volumes/Data/vivien/aliases",
-		"/Volumes/Data/vivien/Dropbox/Applications/SublimeText 3/User/Default (OSX).sublime-keymap",
-		"/Volumes/Data/vivien/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
-		"/Volumes/OSX Data/Users/vivien/Resources/Informatique/Mac OSX/Apps/Entertainment/Tools/Calibre/DeDRM_tools_6.5.3/FAQs.md"
+		"/Volumes/Data/vivien/Desktop/Déclaration Handicap Sonia.md"
 	],
 	"find":
 	{
-		"height": 45.0
+		"height": 32.0
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 117.0,
 		"where_history":
 		[
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"content-chapter",
-			"publite-interface-panel ",
-			"'",
-			"class",
-			"purpose-",
-			"publit",
-			"yourcode",
-			"assets/",
-			"font-family",
-			"nécessaire",
-			"réalis",
-			"douloureuse",
-			"villains",
-			"{{ site.url }}",
-			"»",
-			"«",
-			"\"/\"",
-			"/",
-			"?",
-			"Morteau",
-			"Préaration",
-			"?"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -331,240 +298,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "_includes/header.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3642,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1509,
-								1509
-							]
-						],
-						"settings":
-						{
-							"SL.15.region_keys":
-							[
-							],
-							"SL.29.region_keys":
-							[
-							],
-							"SL.30.region_keys":
-							[
-							],
-							"SL.36.region_keys":
-							[
-							],
-							"SL.48.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 410.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "_includes/footer.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 438,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								438,
-								438
-							]
-						],
-						"settings":
-						{
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "plot.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 29237,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3,
-								3
-							]
-						],
-						"settings":
-						{
-							"SL.143.region_keys":
-							[
-							],
-							"SL.30.region_keys":
-							[
-							],
-							"color_scheme": "Packages/MarkdownEditing/MarkdownEditor.tmTheme",
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/MarkdownEditing/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "_includes/js.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 439,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								110,
-								110
-							]
-						],
-						"settings":
-						{
-							"SL.30.region_keys":
-							[
-							],
-							"SL.31.region_keys":
-							[
-							],
-							"SL.50.region_keys":
-							[
-							],
-							"SL.66.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "_layouts/default.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 168,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								157,
-								157
-							]
-						],
-						"settings":
-						{
-							"SL.31.region_keys":
-							[
-							],
-							"SL.32.region_keys":
-							[
-							],
-							"SL.61.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "_layouts/chapter.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 224,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"SL.16.region_keys":
-							[
-							],
-							"SL.33.region_keys":
-							[
-							],
-							"git_gutter_is_enabled": true,
-							"syntax": "Packages/Liquid/Syntaxes/Liquid-HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -574,7 +309,7 @@
 	},
 	"input":
 	{
-		"height": 46.0
+		"height": 45.0
 	},
 	"layout":
 	{
@@ -585,12 +320,6 @@
 				0,
 				1,
 				1
-			],
-			[
-				0,
-				1,
-				1,
-				2
 			]
 		],
 		"cols":
@@ -601,7 +330,6 @@
 		"rows":
 		[
 			0.0,
-			0.83109264576,
 			1.0
 		]
 	},
@@ -623,7 +351,7 @@
 		"height": 0.0
 	},
 	"pinned_build_system": "",
-	"project": "Ascension.sublime-project",
+	"project": "PubLite.sublime-project",
 	"replace":
 	{
 		"height": 60.0
@@ -636,44 +364,32 @@
 		"selected_items":
 		[
 			[
-				"foot",
-				"Ascension-Web-Serial/_includes/footer.html"
+				"marke",
+				"_test/marked.html"
 			],
 			[
-				".md",
-				"Ascension-Web-Serial/plot.md"
+				"web",
+				"_in/sass/Web Serial.scss"
 			],
 			[
-				"md",
-				"Ascension-Web-Serial/about.md"
+				"mar",
+				"_in/sass/_marked.scss"
 			],
 			[
-				"footer",
-				"Ascension-Web-Serial/_includes/footer.html"
+				".css",
+				"_out/Web Serial.css"
 			],
 			[
-				"config",
-				"Ascension-Web-Serial/_config.yml"
+				"index",
+				"_test/index.html"
 			],
 			[
-				"w",
-				"Ascension-Web-Serial/docs/assets/Web Serial.css"
+				"pu",
+				"_test/index.pug"
 			],
 			[
-				"snip",
-				"Ascension-Web-Serial/_posts/snippets.md"
-			],
-			[
-				"sni",
-				"Ascension-Web-Serial/_posts/snippets.md"
-			],
-			[
-				"inde",
-				"Ascension-Web-Serial/docs/index.html"
-			],
-			[
-				"_",
-				"Ascension-Web-Serial/_config.yml"
+				"var",
+				"_in/sass/_vars.scss"
 			]
 		],
 		"width": 0.0
@@ -686,7 +402,7 @@
 		[
 			[
 				"",
-				"~/Digital Creation/Marked-Custom-CSS/Web Serial/Web Serial - A Custom Marked Stylesheet.sublime-project"
+				"~/Digital Creation/Ascension/Ascension.sublime-project"
 			]
 		],
 		"width": 380.0
@@ -707,8 +423,8 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
-	"side_bar_width": 200.0,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
