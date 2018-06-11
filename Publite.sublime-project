@@ -11,8 +11,11 @@
 			],
 			"folder_exclude_patterns":
 			[
-				"_posts"
-			]
+				"_posts",
+				"docs"
+			],
+			"path": "docs",
+			"name": "docs"
 		}
 	]
 }
