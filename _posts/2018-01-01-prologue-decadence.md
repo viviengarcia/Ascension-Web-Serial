@@ -5,7 +5,7 @@ layout: chapter
 date: 2018-01-01 07:01:01
 ---
 
-Greg Veder rangea ses affaires sans perdre de temps. Diligent et appliqué, il boucla rapidement son sac sans manifester sa maladresse usuelle. Il partageait son cours sur les Affaires Mondiales avec Madison, et malgré un relatif désintérêt du Trio du Mal cette dernière semaine, il préférait ne pas trop compter sur la chance pour bien finir la journée.
+Greg Veder rangea ses affaires sans perdre de temps. Concentré sur ses gestes, il boucla rapidement son sac sans manifester sa maladresse habituelle. Il partageait son cours de géographie avec Madison, et malgré le désintérêt actuel du Trio à son encontre, il ne pouvait pas compter sur la chance pour bien finir la journée.
 
 Depuis l'incident du casier, Madison, Emma et Sophia semblaient avoir décidé qu'il ferait une victime de remplacement passable, en attendant le retour de leur martyre préferée. Loin de faire profil bas, elle affichaient insolament leur méchanceté sans craindre la moindre répercussion, fanfaronnant dans les couloirs, se moquant bruyamment de l'afreuse agression qu'avait subi Taylor et se vantant presque ouvertement de l'avoir organisée. Elles y faisaient sans cesse réference avec leurs sous-entendus lourdingues, comme des camées en manque de leur prochaine dose et la pensée de ce que représentait leur "fix" lui donnait envie de vomir. Il les sentait de plus en plus fébrile ces derniers jours, et bien qu'elles ne se soient pas attaquées à lui depuis plusieurs jours, il ne se faisait pas d'illusion sur la durée de son répit. Le harcèlement de Taylor l'avait bien montré : elles ne s'arrêterait pas, et iraient toujours plus loin, jusqu'à ce qu'on les stoppe. Et pour l'instant, Greg ne se sentait pas vraiment en mesure d'y arriver.
 
