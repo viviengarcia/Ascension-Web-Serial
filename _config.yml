@@ -36,8 +36,6 @@ plugins:
 exclude:
   - PubLite.sublime-project
   - PubLite.sublime-workspace
-  - Publite.sublime-workspace
-  - Publite.sublime-project
   - Gemfile
   - Gemfile.lock
   - README.md

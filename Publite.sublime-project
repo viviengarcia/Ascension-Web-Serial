@@ -2,7 +2,6 @@
 	"folders":
 	[
 		{
-			"path": ".",
 			"file_exclude_patterns":
 			[
 				"Gemfile",
@@ -11,11 +10,17 @@
 			],
 			"folder_exclude_patterns":
 			[
+<<<<<<< HEAD
 				"_posts",
 				"docs"
 			],
 			"path": "docs",
 			"name": "docs"
+=======
+				"_posts"
+			],
+			"path": "."
+>>>>>>> parent of a5db2d5... Configuration changes
 		}
 	]
 }
