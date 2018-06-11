@@ -2,3 +2,4 @@
 _out/
 .sass-cache/
 docs/
+*.sublime-workspace
