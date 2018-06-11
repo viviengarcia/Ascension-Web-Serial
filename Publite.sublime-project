@@ -6,7 +6,6 @@
 			[
 				"Gemfile",
 				"Gemfile.lock",
-				".gitignore",
 				"index.md"
 			],
 			"folder_exclude_patterns":
@@ -14,9 +13,6 @@
 				"_posts"
 			],
 			"path": "."
-		},
-		{
-			"path": "/Volumes/Data/vivien/Digital Creation/Ascension - Novel"
 		}
 	]
 }
