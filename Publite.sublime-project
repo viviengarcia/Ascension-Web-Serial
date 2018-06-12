@@ -11,7 +11,7 @@
 			],
 			"folder_exclude_patterns":
 			[
-				"_posts",
+				"_posts"
 			]
 		}
 	]
