@@ -1,4 +1,5 @@
 .DS_Store
 .sass-cache/
 docs/
-*.sublime-workspace
+Publite.sublime-workspace
+PubLite.sublime-workspace
