@@ -47,5 +47,5 @@ exclude:
 
 
 destination: docs
-keep_files: [assets/web-serial.css, assets/web-serial-min.css, assets/jquery.min.js, assets/menu-top.png, favicon-32x32.png, favicon-16x16.png, bower_components, bower.json]
+keep_files: [assets/_in, assets/_css, assets/jquery.min.js, assets/menu-top.png, favicon-32x32.png, favicon-16x16.png, bower_components, bower.json]
 permalink: /:categories/:title/
